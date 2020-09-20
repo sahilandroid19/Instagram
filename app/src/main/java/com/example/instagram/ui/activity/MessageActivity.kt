@@ -11,11 +11,8 @@ class MessageActivity : AppCompatActivity() {
         setContentView(R.layout.activity_message)
     }
 
-    private fun one() {
+    private fun oneone() {
 
     }
 
-    private fun two() {
-
-    }
 }

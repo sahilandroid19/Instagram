@@ -13,17 +13,11 @@ class MainActivity : BaseActivity(), BottomNavigationView.OnNavigationItemSelect
 
     override fun setUpData() {
         setUpListeners()
-        addHomeFragment()
+//        addHomeFragment()
     }
 
     private fun setUpListeners() {
         bottomNavigationView.setOnNavigationItemSelectedListener(this)
-    }
-
-    private fun addHomeFragment() {
-        supportFragmentManager.beginTransaction().add(R.id.frameLayout,
-            HomeFragment()
-        ).commit()
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {

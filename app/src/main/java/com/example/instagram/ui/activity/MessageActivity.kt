@@ -10,4 +10,12 @@ class MessageActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_message)
     }
+
+    private fun one() {
+
+    }
+
+    private fun two() {
+
+    }
 }

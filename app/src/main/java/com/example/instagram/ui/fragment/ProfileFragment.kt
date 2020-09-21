@@ -32,12 +32,7 @@ class ProfileFragment : Fragment() {
         profileViewPager.adapter = activity?.supportFragmentManager?.let { ProfilePagerAdapter(it) }
         profileTabLayout.setupWithViewPager(profileViewPager)
 
-        setUpTabIcons()
-    }
-
-    private fun setUpTabIcons() {
-        profileTabLayout.getTabAt(0)?.setIcon(R.drawable.icon_grid)
-        profileTabLayout.getTabAt(1)?.setIcon(R.drawable.icon_tag)
+//        setUpTabIcons()
     }
 
     /*companion object {

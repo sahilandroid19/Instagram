@@ -29,7 +29,7 @@ class ProfileFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        profileViewPager.adapter = activity?.supportFragmentManager?.let { ProfilePagerAdapter(it) }
+        profileViewPager.adapter = ProfilePagerAdapter(childFragmentManager)
         profileTabLayout.setupWithViewPager(profileViewPager)
 
         setUpTabIcons()
